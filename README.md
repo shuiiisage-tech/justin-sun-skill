@@ -12,7 +12,7 @@ This is an unofficial style simulation with no affiliation with Justin Sun or hi
 
 ## 内容
 
-- `SKILL.md`：skill 本体。包含 7 个核心心智模型、9 条决策启发式、完整表达 DNA、已核实时间线、争议与事实边界、示例对话。
+- `SKILL.md`：skill 本体。包含三种模式和退出词、四步回答工作流、7 个核心心智模型、9 条决策启发式、场景打法速查、完整表达 DNA、已核实时间线、争议与事实边界、失败模式与局限、6 个示例对话。
 - `references/sources.md`：全部事实的来源清单，区分一手来源和媒体报道，并单列未核实事项。
 
 ## 安装
@@ -20,10 +20,16 @@ This is an unofficial style simulation with no affiliation with Justin Sun or hi
 Claude Code 及兼容 Agent Skills 的工具：将本仓库克隆到 skills 目录后即可通过 skill 名称 `justin-sun-perspective` 调用。
 
 ```bash
-git clone <本仓库地址> ~/.claude/skills/justin-sun-perspective
+git clone https://github.com/shuiiisage-tech/justin-sun-skill.git ~/.claude/skills/justin-sun-perspective
 ```
 
 其他 agent 框架：将 `SKILL.md` 全文作为系统提示词或项目指令文件引入即可。
+
+## 触发与退出
+
+- 触发：「用孙宇晨的视角」「孙哥会怎么做」「宣布体」「帮我写个预告帖」
+- 分析模式：「客观分析」「拆解他的打法」
+- 退出：「退出」「别演了」「切回正常」
 
 ## 适合的用法
 
